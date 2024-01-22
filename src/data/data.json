@@ -1,0 +1,161 @@
+{
+  "Header": {
+    "title": "Nasarawa Microfinance Bank",
+    "paragraph": "Affordable, Efficient and Effective Microfinance Services."
+  },
+  "About": {
+    "paragraph": "Don’t Let the Complexities of Your Financials Burden You Any Longer. We have varieties of saving plans just to meet with your exact needs. Saving plans can be as flexible as u require them to be.",
+    "Why": [
+      "OPEN AN ACCOUNT",
+      "FUND ACCOUNT",
+      "APPLY FOR LOAN",
+      "LOAN DISBURSED"
+    ]
+    
+  },
+  "Gallery": [
+    {
+      "title": "DAN SARKI, MAGANIN ZAMAN BANZA",
+      "largeImage": "img/portfolio/prd1.png",
+      "smallImage": "img/portfolio/prd1.png"
+    },
+    {
+      "title": "ILIMI JARI",
+      "largeImage": "img/portfolio/prd2.png",
+      "smallImage": "img/portfolio/prd2.png"
+    },
+    {
+      "title": "HAJJ SAVINGS",
+      "largeImage": "img/portfolio/prd3.png",
+      "smallImage": "img/portfolio/prd3.png"
+    },
+    {
+      "title": "INGANTA SANA'AR KA",
+      "largeImage": "img/portfolio/prd4.png",
+      "smallImage": "img/portfolio/prd4.png"
+    },
+    {
+      "title": "NOMA TUSHEN ARZIKI",
+      "largeImage": "img/portfolio/prd5.png",
+      "smallImage": "img/portfolio/prd5.png"
+    },
+    {
+      "title": "ADASHE SAVINGS",
+      "largeImage": "img/portfolio/5.png",
+      "smallImage": "img/portfolio/5.png"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-motorcycle",
+      "name": "Hire purchase and Leasing program",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-book",
+      "name": "Educational finance savings scheme",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-leaf",
+      "name": "Astute farming",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"NMFB has really played a key role in the advancement of my business. from loans to savings and lots more. They are just the best at what they do.\"",
+      "name": "Alh. Maikano Abdul.  CEO, Maikano Farms Ltd"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.\"",
+      "name": "Mr. Badmus Joshua.  Bursar, Prestige Group of Schools"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "DR SADIQ",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "DR SADIQ",
+      "job": "SENIOR CONSULTANT"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "DR SADIQ",
+      "job": "MANAGING DIRECTOR"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "DR SADIQ",
+      "job": "IT HEAD"
+    }
+  ],
+  "Contact": {
+    "address": "Nasarawa microfinance bank after UBA Nasaran poly ",
+    "phone": "+234 90 5542 8328",
+    "email": "info@nasmfb.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-check",
+      "title": "Effective",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-rocket",
+      "title": "Efficient",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-money",
+      "title": "Affordable",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ],
+  "Vision": [
+    {
+      "icon": "fa fa-vision",
+      "title": "Vision",
+      "text": "Exploring Oppoturnities for the poor"
+    },
+    {
+      "icon": "fa fa-mission",
+      "title": "Mision",
+      "text": "To be a key player in alleviating the suffering odf the masses."
+    },
+    {
+      "icon": "fa fa-values",
+      "title": "Our core values",
+      "text": "Pattenering to make life better."
+    }
+  ]
+}
