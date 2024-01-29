@@ -18,7 +18,7 @@ export const SFA = () => {
                 <br />
                 <h3>Statement of Financial Affairs:</h3>
                 <div className="cg-text">
-                  <img src="img/hero_img.pg" alt="sfa" />
+                  <img src="img/sfa.png" alt="sfa"  />
                       
                 </div>
               </div>

@@ -502,6 +502,7 @@ header .intro-text {
 }
 #team .team-img {
   width: 240px;
+  height: 340px;
 }
 #team .thumbnail {
   background: transparent;
