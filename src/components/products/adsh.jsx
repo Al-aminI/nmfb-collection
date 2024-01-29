@@ -12,65 +12,68 @@ export const ADSH = () => {
                 <br />
                 <br />
                 <br />
-                <h2>Adashe </h2>
+                <h2>Adashe – Daily Savings Contribution </h2>
 
-                <h3>Brief History of the Bank</h3>
+                <h3>“ADASHE” DAILY CONTRIBUTION SAVINGS SCHEME</h3>
                 <div className="cg-text">
                   <ul>
                     <li>
                       <p>
                         <span>
                           {" "}
-                          The bank started as a Community Bank in March 1993 and
-                          converted to Unit Microfinance Bank in 2007. In 2013,
-                          with consistent growth the bank became the first State
-                          Microfinance Bank in Nasarawa State. However, with the
-                          recent recapitalization policy of Central Bank of
-                          Nigeria to strengthen the capabilities of MFBs, it
-                          downscaled to Unit 1 Tier 1; with authorized
-                          shareholders’ funds of a little above two hundred
-                          million naira. This gives the bank leverage to
-                          continue operating in the unbanked and high-density
-                          areas by keeping its branches and cash centers
-                          together with its staff as the law allows it to have
-                          four branches outside its head office within five
-                          contiguous local government areas. The outreach is
-                          growing by the day; from 12,360 in 2013 to more than
-                          30,000 in 2022, with the zeal to double the figures in
-                          the years ahead. The bank’s mode of operations had
-                          started from analogue to digital and of recent
-                          internet or electronic banking backed up with robust
-                          software. This has put the bank on a pedestal of
-                          competing not only with its peers but commercial banks
-                          and that can be attested from the ATM and other
-                          electronic devices provided in its branches and cash
-                          center.
-                        </span>{" "}
+                          <ul>
+                            <li>
+                            - Daily/weekly/monthly savings
+                            </li>
+                            <li>
+    - Lodgment/withdrawals from places of business and homes.
+                            </li>
+                            <li>
+                            - Withdrawal once a month.
+                            </li>
+                            <br />
+                            <li>
+
+                            – Savings for a period of not less than 3 months, qualifies one for credit facility ceiling that would be three times more than his savings, repayable within 3 to 6 months
+ 
+                            </li>
+            
+                          </ul>
+                          
+
+                       </span>{" "}
                       </p>
                     </li>
                     <li>
                       <p>
-                        <h3>Our Vision </h3>{" "}
+                        <h3>ACCOUNT OPENING REQUIREMENTS </h3>{" "}
                         <span>
                           {" "}
-                          To be a key player in alleviating the suffering of the
-                          masses
-                        </span>{" "}
+                          <strong> Open a savings account today:</strong>
+<ul>
+  <li>
+  - Complete application form to enter into the program
+  </li>
+  <li>
+  - Provide 1 passport photograph
+  </li>
+  <li>
+  - Copy of voters’ card, or driving license or international passport for new customers.
+BVN
+  </li>
+  <li>
+  - Other conditions may apply when the need of assistance may arise
+ 
+  </li>
+</ul>
+
+
+
+                       </span>{" "}
                       </p>
                     </li>
 
-                    <li>
-                      <p>
-                        <h3>Our Mission </h3>{" "}
-                        <span> Exploring opportunities for the poor</span>{" "}
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <h3>Our Core Values </h3>{" "}
-                        <span> Partnering to make life better</span>{" "}
-                      </p>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>

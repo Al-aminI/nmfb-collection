@@ -1,20 +1,20 @@
 
 import React, { useState, useEffect } from "react";
-import { Navigation } from "../../components/landingPage/navigation";
-import { RDB } from "../../components/products/rdb";
+import { Navigation } from "../components/landingPage/navigation";
+import { SFA } from "../components/pages/sfa";
 
-import { Contact } from "../../components/landingPage/contact";
-import JsonData from "../../data/data.json";
+import { Contact } from "../components/landingPage/contact";
+import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
 
-import "../../App.css";
+import "../App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
 });
 
-export const RDBPage = () => {
+export const SFAPage = () => {
 
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
@@ -24,7 +24,7 @@ export const RDBPage = () => {
     <div>
       <Navigation />
       
-      <RDB />
+      <SFA />
       <Contact data={landingPageData.Contact} />
     </div>
   );

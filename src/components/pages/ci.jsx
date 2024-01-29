@@ -47,7 +47,7 @@ export const CI = () => {
                     <li>
                       <p>
                         <h3>Telephone Nos: </h3>{" "}
-                        <span> 08067346241,07030687577 & 08189312766</span>{" "}
+                        <span> 08067346241,08030594091 & 08136263425</span>{" "}
                       </p>
                     </li>
                     <li>
@@ -131,7 +131,7 @@ export const CI = () => {
                         <h3>Consultant: </h3>{" "}
                         <span>
                           {" "}
-                          Dr. A.B. Sadik Greenwall Financial Consultants No. 21
+                          Dr. A.B. Sadik Greenwall Financial Services No. 21
                           Baitul Hikma College Road, Off Judges Quarters Road,
                           GRA, Bauchi, Bauchi State
                         </span>{" "}

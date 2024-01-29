@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "Nasarawa Microfinance Bank",
+    "title": "Nasarawa Microfinance Bank Ltd",
     "paragraph": "Affordable, Efficient and Effective Microfinance Services."
   },
   "About": {
-    "paragraph": "Don’t Let the Complexities of Your Financials Burden You Any Longer. We have varieties of saving plans just to meet with your exact needs. Saving plans can be as flexible as u require them to be.",
+    "paragraph": "Do not Let the Complexities of Your Financials Burden You Any Longer. We have varieties of saving plans just to meet with your exact needs. Saving plans can be as flexible as u require them to be.",
     "Why": [
       "OPEN AN ACCOUNT",
       "FUND ACCOUNT",
@@ -49,113 +49,113 @@
     {
       "icon": "fa fa-motorcycle",
       "name": "Hire purchase and Leasing program",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Own assets that would improve your income without hurdles. "
     },
     {
       "icon": "fa fa-book",
       "name": "Educational finance savings scheme",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Payment of school fees on annual basis based on your income."
     },
     {
       "icon": "fa fa-leaf",
       "name": "Astute farming",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Understanding the techniques of farming and agricultural value chain."
     }
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"NMFB has really played a key role in the advancement of my business. from loans to savings and lots more. They are just the best at what they do.\"",
-      "name": "Alh. Maikano Abdul.  CEO, Maikano Farms Ltd"
+      "img": "img/testimonials/13.jpg",
+      "text": "\"NMFB has really played a key role in advancing my business. From small savings to obtaining loans and lots more services that assisted me to achieve my goals. They are just the best in advancing the growth of small enterprises.\"",
+      "name": "Alh. Bashir D. Suleiman.  CEO, Maikano Farms Ltd"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.\"",
-      "name": "Mr. Badmus Joshua.  Bursar, Prestige Group of Schools"
+      "img": "img/testimonials/08.jpg",
+      "text": "\"The bank brought some products that assisted us in collecting school fees without headache, the product also assisted the parents by giving them loans to pay off their annual fees easily at once, while they pay the bank gradually.\"",
+      "name": "Mr. Raji Hussaini.  Bursar, Prestige Group of Schools"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/10.jpg",
+      "text": "\"How I wish all banks could emulate the services of this bank. we are in a very remote area, where there is no network of telephone services, no motorable road and all the good things of modern life. Despite our state, the bank came to our rescue by providing loans in term of seedinglings, agro chemicals and also cash to assist us on our main business 'farming'. This year 2023 had been the best farming season as all the surrounding communities had good yield\"",
+      "name": "Samuel Yusuf"
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/09.jpg",
+      "text": "\"Iam a civil servant that initially moved my account to a Commercial bank for a big loan, but their stringent conditions drove me out: I have to come back to this bank, based on a simple reason that this type of bank is the only one that can assist low income earners", 
+      "name": "Abba Bako"
     },
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/12.jpg",
+      "text": "\"One amazing issue with this bank is the agricultural machineries in their possession. They provided rice planter that plants my 20 hectares within few hours and also rice harvester that also carry out the cutting of the rice within few hours, saving us labour cost and time, apart from other machineries that really assisted us. .\"",
+      "name": "Umar Babangogo"
     },
     {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/07.jpg",
+      "text": "\"I'am a community leader and every year I do resolve more than 100 demarcation cases. This bank has really assisted us by providing a ditcher that was used to demarcate all our community farms. I am here with my community elders to thank them.\"",
+      "name": "Musa Shu'aibu"
     }
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "DR SADIQ",
-      "job": "Director"
+      "img": "img/team/06.png",
+      "name": "Yusuf Shu'aibu",
+      "job": "Managing Director"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "DR SADIQ",
-      "job": "SENIOR CONSULTANT"
+      "img": "img/team/10.jpg",
+      "name": "Mrs Saratu Abdullahi Mohammed",
+      "job": "Chief Financial Officer/Head of Internal Control"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "DR SADIQ",
-      "job": "MANAGING DIRECTOR"
+      "img": "img/team/08.jpg",
+      "name": "Bawa U. Ubana",
+      "job": "Branch Manager"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "DR SADIQ",
-      "job": "IT HEAD"
+      "img": "img/team/09.jpg",
+      "name": "Rizoma Danladi",
+      "job": "Branch Manager"
     }
   ],
   "Contact": {
-    "address": "Nasarawa microfinance bank after UBA Nasaran poly ",
-    "phone": "+234 90 5542 8328",
+    "address": "Nasarawa Microfinance Bank Ltd, N0.17 Umaru Makama Dogo Road, Nasarawa ",
+    "phone": "+234 8067346241",
     "email": "info@nasmfb.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "facebook": "nasmfbank.com",
+    "twitter": "nasmfb.com",
+    "youtube": "nasmfbank.com"
   },
   "Features": [
     {
       "icon": "fa fa-check",
       "title": "Effective",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Always trying to resolve customers problems and enlightening the public on modern farming techniques."
     },
     {
       "icon": "fa fa-rocket",
       "title": "Efficient",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Providing 24 hours services and maintaining a listening ear in resolving problems promptly."
     },
     {
       "icon": "fa fa-money",
       "title": "Affordable",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Cost of the bank services do take into account the financial position of the beneficiary."
     }
   ],
   "Vision": [
     {
       "icon": "fa fa-vision",
       "title": "Vision",
-      "text": "Exploring Oppoturnities for the poor"
+      "text": "Exploring Opportunities for the poor"
     },
     {
       "icon": "fa fa-mission",
       "title": "Mision",
-      "text": "To be a key player in alleviating the suffering odf the masses."
+      "text": "To be a key player in alleviating the suffering of the masses."
     },
     {
       "icon": "fa fa-values",
       "title": "Our core values",
-      "text": "Pattenering to make life better."
+      "text": "Partnering to make life better."
     }
   ]
 }

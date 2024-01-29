@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Navigation } from "../../components/landingPage/navigation";
-import { BH } from "../../components/pages/bh";
+import { HJ } from "../../components/products/hj";
 
 import { Contact } from "../../components/landingPage/contact";
 import JsonData from "../../data/data.json";
@@ -24,7 +24,7 @@ export const HJPage = () => {
     <div>
       <Navigation />
       
-      <BH />
+      <HJ />
       <Contact data={landingPageData.Contact} />
     </div>
   );

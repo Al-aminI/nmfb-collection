@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Navigation } from "../../components/landingPage/navigation";
-import { BH } from "../../components/pages/bh";
+import { GT } from "../../components/products/gt";
 
 import { Contact } from "../../components/landingPage/contact";
 import JsonData from "../../data/data.json";
@@ -24,7 +24,7 @@ export const GTPage = () => {
     <div>
       <Navigation />
       
-      <BH />
+      <GT />
       <Contact data={landingPageData.Contact} />
     </div>
   );

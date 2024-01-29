@@ -17,7 +17,7 @@ import { IMPROVEPage } from "./Screens/prdspages/improvepage";
 import { INFSAVINGSPage } from "./Screens/prdspages/infSavings";
 import { RDBPage } from "./Screens/prdspages/rdbpage";
 import { SAVINGSPage } from "./Screens/prdspages/savingspage";
-
+import { SFAPage } from "./Screens/sfapage";
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 
@@ -34,7 +34,7 @@ const App = () => {
           <Route path='/briefHistory' element={ <BHPage /> } />
           <Route path='/background' element={ <BGPage /> } />
           <Route path='/directorsProfile' element={ <DPPage /> } />
-          <Route path='/managmentsProfile' element={ <MPPage /> } />
+          <Route path='/managementProfile' element={ <MPPage /> } />
           <Route path='/corporateSocialResponsibility' element={ <CSRPage /> } />
           <Route path='/adashe' element={ <ADSHPage /> } />
           <Route path='/dabara' element={ <DBRPage /> } />
@@ -46,6 +46,7 @@ const App = () => {
           <Route path='/infantSavings' element={ <INFSAVINGSPage /> } />
           <Route path='/raiDaBuri' element={ <RDBPage /> } />
           <Route path='/Savings' element={ <SAVINGSPage /> } />
+          <Route path='/StatementOfFinancialAffairs' element={ <SFAPage /> } />
         </Routes>
       </BrowserRouter>
     </div>

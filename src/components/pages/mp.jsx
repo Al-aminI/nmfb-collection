@@ -28,20 +28,8 @@ export const MP = () => {
                           and mission of the bank into reality. The bank has a
                           hierarchical structure that outlines the horizontal
                           and vertical lines of communication. The importance
-                          that is placed on Agriculture made the bank to employ
-                          and deploy agricultural desk officers in all its
-                          branches that identify and assess the problems of the
-                          farmers within their areas of operations; report and
-                          advise the management on the appropriate line of
-                          action to alleviate or reduce the problems of the
-                          farmers. They also supervise the disbursement and
-                          repayment of the loans and advances granted. To ensure
-                          proper use of the credits granted; the bank provides
-                          farming inputs to farmers and also support them with
-                          upkeep funds during the farming season. It trains the
-                          farmers by hiring an agronomist to educate them on
-                          modern farming techniques, while the loans and
-                          marketing officers train them in book keeping.
+                          placed on the vision and mission of the bank made it to focus on agriculture and agricultural value chain to enable it serve its community very well and also meet its social responsibility effectively.         
+                          
                         </span>{" "}
                       </p>
                     </li>

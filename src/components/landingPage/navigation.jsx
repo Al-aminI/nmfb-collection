@@ -185,17 +185,19 @@ export const Navigation = (props) => {
               <ul class="dropdown-menu">
                 <li>
                   <a href="#" id="dropdown-item">
-                    Nasarawa – 08030594091
+                    Nasarawa – 08067346241,08030594091
+
                   </a>
                 </li>
                 <li>
                   <a href="#" id="dropdown-item">
-                    Toto – 08052444501
+                    Toto – 08052444501, 08147320148
                   </a>
                 </li>
                 <li>
                   <a href="#" id="dropdown-item">
-                    Lafia – 07036563973
+                    Lafia – 07036563973, 08133946047
+                    
                   </a>
                 </li>
               </ul>

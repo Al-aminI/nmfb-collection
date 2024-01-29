@@ -17,7 +17,7 @@ export const CG = () => {
               
               <h3>Corporate Governance</h3>
               <div className="cg-text">
-                <p>The bank is governed at the apex by the Board of Directors composed of eminent and tested professionals. The Board of Directors are saddled with corporate governance to ensure that rules, processes, or laws by which the bank operates, regulated and governed are in-line with the standards set out by the Central Bank of Nigeria, Financial Reporting Council and International Microfinance Market. It provides structure that works for the benefit of stakeholders to ensure that the enterprise adheres to accepted ethical standards and best practices as well as formal laws. </p>
+                <p>The bank is governed at the apex by the Board of Directors composed of eminent and tested professionals. The Board of Directors are saddled with corporate governance to ensure that rules, processes, and laws by which the bank operate, regulate and govern are in-line with the standards set out by the Central Bank of Nigeria, Nigeria Deposit Insurance Corporation, Financial Reporting Council and International Microfinance Mix Market. It provides structure that works for the benefit of stakeholders to ensure that the enterprise adheres to acceptable ethical standards and best practices as well as formal laws. </p>
               </div>
             </div>
           </div>

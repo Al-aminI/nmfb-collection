@@ -59,36 +59,23 @@ export const DP = () => {
                         <br />
                       <p>
                         <h3>
-                          2. Dr. Ahmed Isyaku Bala Tafida (MON){" "}
+                          2. Alh Usman, Musa Ahmed{" "}
                           <span>
                             <i> Director</i>
                           </span>{" "}
                         </h3>{" "}
                         <span>
                           {" "}
-                          Born on 22nd July 1954 was an ex-mortgage banker and
-                          holds Phd in Political Economy and Development Studies
-                          from University of Abuja (2004). He was at one time a
-                          General Manager of Aso Solid Investment, a lifetime
-                          member of Nigeria Economic Society and member of many
-                          professional bodies. His working life spanned from
-                          1974 to date holding various positions from junior to
-                          senior management in different organizations across
-                          the Country. He was at one time a commissioner for
-                          Works and Transport and later Finance of Nasarawa
-                          State from 1999 to 2001. He later became the Managing
-                          Director and Chief Executive officer of Aso Savings
-                          and Loans from 2003 to 2005. He attended many courses
-                          within and outside the Country on Finance, Management,
-                          Politics and so many other fields. He had series of
-                          awards and titles in different fields of human
-                          endeavor. With this vast knowledge, experiences and
-                          the zeal to contribute to the development of the
-                          Country, he enrolled to teach at Nasarawa State
-                          University, where he was recently appointed to be the
-                          Head of Economics Department (2020). Presently, he is
-                          the Chairman, Board Establishment and General-Purpose
-                          Committee of the bank.
+                          Born on 1st April 1965,  a graduate of Business Administration that joined the banking industry in 1992. He rose through the ranks in the defunct Savannah Bank to the rank of Manager,
+                          later a Senior Manager with Inland Bank PLC, Finbank PLC became the Managing Director of Fims Microfinance Bank
+                          From 2010 to 2014. He has vast knowledge in banking and Microfinance in particular; having attended many courses in the field and a certified Microfinance Banker. He is presently a director with FIMS MFB and joined the Board of Nasarawa Microfinance Bank in September 2023
+                          
+                          
+                          
+                          
+                        
+                          
+                         
                         </span>{" "}
                       </p>
                     </li>
