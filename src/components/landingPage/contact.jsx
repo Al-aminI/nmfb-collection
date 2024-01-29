@@ -153,7 +153,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 NasMFB. Design by{" "}
+            &copy; 2024 NasMFB. Design by{" "}
             <a href="http://www.ai.com" rel="nofollow">
               AI Info Tech.
             </a>

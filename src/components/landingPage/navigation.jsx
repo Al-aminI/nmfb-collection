@@ -58,7 +58,7 @@ export const Navigation = (props) => {
                   </a>
                 </li>
                 <li>
-                  <a href="/managmentsProfile" id="dropdown-item">
+                  <a href="/managementProfile" id="dropdown-item">
                     Management Profile
                   </a>
                 </li>
@@ -166,7 +166,7 @@ export const Navigation = (props) => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" id="dropdown-item">
+                  <a href="/StatementOfFinancialAffairs" id="dropdown-item">
                     Statement of Financial Affairs
                   </a>
                 </li>

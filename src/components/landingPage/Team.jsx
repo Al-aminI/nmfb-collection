@@ -7,7 +7,7 @@ export const Team = (props) => {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet the Team</h2>
           <p>
-            these are our dedicating team, that focus on driving NMFB forward in rain and sun, good and hard times.
+            these are our dedicated team, that focus on driving NMFB forward in rain and sun, good and hard times.
           </p>
         </div>
         <div id="row">
