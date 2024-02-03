@@ -32,12 +32,12 @@ export const DP = () => {
                           Ahmadu Bello University Zaria, MSc in Public
                           Administration from the Graduate School of Public
                           Administration New York University USA. A Post
-                          Graduate Diploma in Islamic Baking and Insurance from
+                          Graduate Diploma in Islamic Banking and Insurance from
                           United Kingdom and Certificate in Micro finance of
                           Boulder Institute of Microfinance Boulder USA. Between
                           1973 and 1980, he worked as an Administrative Officer
                           with the defunct Benue Plateau State Ministries of
-                          Trade Insutry and Cooperatives, Ministry of Works and
+                          Trade Industry and Cooperatives, Ministry of Works and
                           Cabinet Office. In 1980, Alh Isa Ahmed joined the
                           United Bank for Africa PLC where he retired as
                           Assistance General Manager and Regional Coordinator

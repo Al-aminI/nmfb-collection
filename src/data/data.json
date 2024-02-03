@@ -54,7 +54,7 @@
     {
       "icon": "fa fa-book",
       "name": "Educational finance savings scheme",
-      "text": "Payment of school fees on annual basis based on your income."
+      "text": "Planning to meet your children's school fees within the context of your income."
     },
     {
       "icon": "fa fa-leaf",
@@ -103,17 +103,17 @@
     {
       "img": "img/team/10.jpg",
       "name": "Mrs Saratu Abdullahi Mohammed",
-      "job": "Chief Financial Officer/Head of Internal Control"
+      "job": "Senior Management"
     },
     {
       "img": "img/team/08.jpg",
       "name": "Bawa U. Ubana",
-      "job": "Branch Manager"
+      "job": "Senior Management"
     },
     {
       "img": "img/team/09.jpg",
       "name": "Rizoma Danladi",
-      "job": "Branch Manager"
+      "job": "Senior Management"
     }
   ],
   "Contact": {
@@ -128,17 +128,17 @@
     {
       "icon": "fa fa-check",
       "title": "Effective",
-      "text": "Always trying to resolve customers problems and enlightening the public on modern farming techniques."
+      "text": "Prompt Resolution of problems."
     },
     {
       "icon": "fa fa-rocket",
       "title": "Efficient",
-      "text": "Providing 24 hours services and maintaining a listening ear in resolving problems promptly."
+      "text": "Providing 24 hours efficient services."
     },
     {
       "icon": "fa fa-money",
       "title": "Affordable",
-      "text": "Cost of the bank services do take into account the financial position of the beneficiary."
+      "text": "Negotiable charges."
     }
   ],
   "Vision": [
