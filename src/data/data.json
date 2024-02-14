@@ -4,12 +4,12 @@
     "paragraph": "Affordable, Efficient and Effective Microfinance Services."
   },
   "About": {
-    "paragraph": "Do not Let the Complexities of Your Financials Burden You Any Longer. We have varieties of saving plans just to meet with your exact needs. Saving plans can be as flexible as u require them to be.",
+    "paragraph": "Do not let the complexities of your financials disturb you any longer. We have varieties of saving plans just to meet with your exact needs. Saving plans can be as flexible as u require them to be.",
     "Why": [
-      "OPEN AN ACCOUNT",
-      "FUND ACCOUNT",
-      "APPLY FOR LOAN",
-      "LOAN DISBURSED"
+      "OPEN AN ACCOUNT BASED ON YOUR NEEDS",
+      "FUND THE ACCOUNT BASED ON YOUR CAPACITY",
+      "APPLY FOR LOAN AFTER A PERIOD TO BOOST YOUR CAPACITY",
+      
     ]
     
   },
@@ -69,24 +69,27 @@
       "name": "Alh. Bashir D. Suleiman.  CEO, Maikano Farms Ltd"
     },
     {
-      "img": "img/testimonials/08.jpg",
+      "img": "img/testimonials/Hafsat.jpg",
       "text": "\"The bank brought some products that assisted us in collecting school fees without headache, the product also assisted the parents by giving them loans to pay off their annual fees easily at once, while they pay the bank gradually.\"",
-      "name": "Mr. Raji Hussaini.  Bursar, Prestige Group of Schools"
+      "name": "Haj Hafsat Sani.  Bursar, Prestige Group of Schools"
     },
     {
       "img": "img/testimonials/10.jpg",
       "text": "\"How I wish all banks could emulate the services of this bank. we are in a very remote area, where there is no network of telephone services, no motorable road and all the good things of modern life. Despite our state, the bank came to our rescue by providing loans in term of seedinglings, agro chemicals and also cash to assist us on our main business 'farming'. This year 2023 had been the best farming season as all the surrounding communities had good yield\"",
       "name": "Samuel Yusuf"
+
+
+      
     },
     {
-      "img": "img/testimonials/09.jpg",
+      "img": "img/testimonials/14.jpg",
       "text": "\"Iam a civil servant that initially moved my account to a Commercial bank for a big loan, but their stringent conditions drove me out: I have to come back to this bank, based on a simple reason that this type of bank is the only one that can assist low income earners", 
-      "name": "Abba Bako"
+      "name": "Rabi'at Usman"
     },
     {
-      "img": "img/testimonials/12.jpg",
+      "img": "img/testimonials/15.jpg",
       "text": "\"One amazing issue with this bank is the agricultural machineries in their possession. They provided rice planter that plants my 20 hectares within few hours and also rice harvester that also carry out the cutting of the rice within few hours, saving us labour cost and time, apart from other machineries that really assisted us. .\"",
-      "name": "Umar Babangogo"
+      "name": "Murjanatu Abdulkhadir"
     },
     {
       "img": "img/testimonials/07.jpg",
