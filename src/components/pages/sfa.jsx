@@ -21,6 +21,11 @@ export const SFA = () => {
                   <img src="img/sfa.png" alt="sfa"  />
                       
                 </div>
+                <br /><br />
+                <div className="cg-text">
+                  <img src="img/P&L.png" alt="P&L"  />
+                      
+                </div>
               </div>
             </div>
           </div>
