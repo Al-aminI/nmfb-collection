@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { LandingPage } from "./Screens/landingpage";
 import { CGPage } from "./Screens/cgPage";
 import { CIPage } from "./Screens/cipage";
