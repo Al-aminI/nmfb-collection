@@ -202,6 +202,12 @@ export const Navigation = (props) => {
                 </li>
               </ul>
             </li>
+            <li>
+            <a href="/privacyPolicy" className="page-scroll">
+                Privacy & Policy
+              </a>
+            </li>
+           
           </ul>
         </div>
       </div>

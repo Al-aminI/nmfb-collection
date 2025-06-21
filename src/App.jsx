@@ -18,6 +18,7 @@ import { INFSAVINGSPage } from "./Screens/prdspages/infSavings";
 import { RDBPage } from "./Screens/prdspages/rdbpage";
 import { SAVINGSPage } from "./Screens/prdspages/savingspage";
 import { SFAPage } from "./Screens/sfapage";
+import { PrivacyPolicyPage } from "./Screens/privacyPolicyPage";
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 
@@ -47,6 +48,7 @@ const App = () => {
           <Route path='/raiDaBuri' element={ <RDBPage /> } />
           <Route path='/Savings' element={ <SAVINGSPage /> } />
           <Route path='/StatementOfFinancialAffairs' element={ <SFAPage /> } />
+          <Route path='/privacyPolicy' element={ <PrivacyPolicyPage /> } />
         </Routes>
       </BrowserRouter>
     </div>

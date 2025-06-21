@@ -158,6 +158,11 @@ export const Contact = (props) => {
               AI Info Tech.
             </a>
           </p>
+          <p>
+            <a href="/privacyPolicy" style={{ color: '#fff', textDecoration: 'underline' }}>
+              Privacy and Cookies Policy
+            </a>
+          </p>
         </div>
       </div>
     </div>
