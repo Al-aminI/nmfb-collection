@@ -145,6 +145,12 @@ export const DP = () => {
                             <i>Director</i>
                           </span>{" "}
                         </h3>{" "}
+                        <div className="cg-text director-photo">
+                          <img
+                            src="img/directors/ahmed-jibrin-ahmed.jpg"
+                            alt="Ahmed Jibrin Ahmed"
+                          />
+                        </div>{" "}
                         <span>
                           {" "}
                           Ahmed Jibrin Ahmed is a Director and Board Member of
