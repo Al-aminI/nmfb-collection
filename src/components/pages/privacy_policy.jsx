@@ -8,13 +8,9 @@ export const PrivacyPolicy = () => {
           <div className="col-xs-12">
             <div className="col-xs-12">
               <div className="about-text">
-                <br />
-                <br />
-                <br />
-                <br />
-                <h2>Privacy and Cookies Policy</h2>
-                <br />
-                <br />
+                <div className="page-head">
+                  <h2>Privacy and Cookies Policy</h2>
+                </div>
                 <div className="cg-text">
                   <h3>Website Privacy Policy</h3>
                   <p>

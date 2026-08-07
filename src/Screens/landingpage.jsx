@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Navigation } from "../components/landingPage/navigation";
 import { Header } from "../components/landingPage/header";
+import { Marquee } from "../components/landingPage/marquee";
 import { Features } from "../components/landingPage/features";
 import { About } from "../components/landingPage/about";
 import { Services } from "../components/landingPage/services";
@@ -30,6 +31,7 @@ export const LandingPage = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <Marquee />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />

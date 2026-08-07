@@ -8,11 +8,9 @@ export const BH = () => {
           <div className="col-xs-12">
             <div className="col-xs-12">
               <div className="about-text">
-                <br />
-                <br />
-                <br />
-                <br />
-                <h2>Brief History of the Bank</h2>
+                <div className="page-head">
+      <h2>Brief History of the Bank</h2>
+    </div>
 
                 <h3>Brief History of the Bank</h3>
                 <div className="cg-text">

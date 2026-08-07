@@ -8,14 +8,9 @@ export const MP = () => {
           <div className="col-xs-12">
             <div className="col-xs-12">
               <div className="about-text">
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <h2>Management's Profile</h2>
-                <br /> <br />
-                <br />
+                <div className="page-head">
+                  <h2>Management's Profile</h2>
+                </div>
                 <h3>Management:</h3>
                 <div className="cg-text">
                   <ul>

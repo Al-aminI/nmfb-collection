@@ -7,18 +7,10 @@ export const CSR = () => {
         <div className="row">
           <div className="col-xs-12">
             <div className="col-xs-12">
-              <div className="about-text">
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                
-                <h2>Corporate Social Responsibility</h2>
-                <br /> <br /><br />
-                <h3>
-                 
-                </h3>
+<div className="about-text">
+                <div className="page-head">
+                  <h2>Corporate Social Responsibility</h2>
+                </div>
                 <div className="cg-text">
                   <ul>
                     <li>
@@ -38,9 +30,9 @@ export const CSR = () => {
                   </ul>
                 </div>
               </div>
+              </div>
             </div>
-          </div>
-        </div>
+</div>
       </div>
     </div>
   );

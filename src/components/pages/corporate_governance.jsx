@@ -9,11 +9,9 @@ export const CG = () => {
             
           <div className="col-xs-12">
             <div className="about-text">
-                <br />
-                <br />
-                <br />
-                <br />
-              <h2>Corporate Governance</h2>
+                <div className="page-head">
+      <h2>Corporate Governance</h2>
+    </div>
               
               <h3>Corporate Governance</h3>
               <div className="cg-text">

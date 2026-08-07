@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { LandingPage } from "./Screens/landingpage";
 import { CGPage } from "./Screens/cgPage";
 import { CIPage } from "./Screens/cipage";
@@ -23,7 +23,41 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 
 const App = () => {
-  
+  useEffect(() => {
+    let io = null;
+    if ("IntersectionObserver" in window) {
+      io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("reveal-in");
+              io.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+      );
+    }
+    const observeAll = () => {
+      document.querySelectorAll("[data-reveal]").forEach((el) => {
+        if (!el.classList.contains("reveal-in")) {
+          io ? io.observe(el) : el.classList.add("reveal-in");
+        }
+      });
+    };
+observeAll();
+    const mo = new MutationObserver(observeAll);
+    if (document.getElementById("root")) {
+      mo.observe(document.getElementById("root"), {
+        childList: true,
+        subtree: true,
+      });
+    }
+    return () => {
+      io && io.disconnect();
+      mo.disconnect();
+    };
+  }, []);
 
   return (
     <div>

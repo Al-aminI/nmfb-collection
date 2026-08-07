@@ -8,14 +8,9 @@ export const DP = () => {
           <div className="col-xs-12">
             <div className="col-xs-12">
               <div className="about-text">
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                
-                <h2>Director's Profile</h2>
-                <br /> <br /><br />
+                <div className="page-head">
+                  <h2>Director's Profile</h2>
+                </div>
                 <h3>
                   1. <strong>Alh Isa Ahmed</strong>{" "}
                   <span>
@@ -56,8 +51,8 @@ export const DP = () => {
                       </p>
                     </li>
                     <li>
-                        <br />
-                      <p>
+                        
+<p>
                         <h3>
                           2. Alh Usman, Musa Ahmed{" "}
                           <span>
@@ -81,8 +76,8 @@ export const DP = () => {
                     </li>
 
                     <li>
-                        <br />
-                      <p>
+                        
+<p>
                         <h3>
                           3. Alh Sule Ladan{" "}
                           <span>
@@ -109,8 +104,8 @@ export const DP = () => {
                       </p>
                     </li>
                     <li>
-                        <br />
-                      <p>
+                        
+<p>
                         <h3>
                           4. Prof. Maikano Mohammed Ari{" "}
                           <span>
@@ -137,8 +132,8 @@ export const DP = () => {
                       </p>
                     </li>
                     <li>
-                        <br />
-                      <p>
+                        
+<p>
                         <h3>
                           5. Ahmed Jibrin Ahmed{" "}
                           <span>
@@ -162,9 +157,8 @@ export const DP = () => {
                           performance, contributing to sound corporate
                           governance, financial sustainability, and inclusive
                           economic growth.
-                          <br />
-                          <br />
-                          A COREN-registered Water Resources Engineer, Ahmed
+                          
+A COREN-registered Water Resources Engineer, Ahmed
                           brings over 14 years of experience spanning
                           engineering, climate resilience, infrastructure
                           development, and institutional governance. He has
@@ -177,9 +171,8 @@ export const DP = () => {
                           sustainable infrastructure, working with government
                           institutions, development partners, and the private
                           sector.
-                          <br />
-                          <br />
-                          Beyond his professional career, Ahmed is a passionate
+                          
+Beyond his professional career, Ahmed is a passionate
                           social entrepreneur with a strong commitment to
                           empowering small and medium-sized enterprises (SMEs).
                           Having founded and managed several SMEs, he
@@ -189,17 +182,15 @@ export const DP = () => {
                           enterprise development, and improved access to
                           responsible financial services that enable businesses
                           and communities to prosper.
-                          <br />
-                          <br />
-                          As a member of the Board of Nasarawa Microfinance
+                          
+As a member of the Board of Nasarawa Microfinance
                           Bank, Ahmed is committed to strengthening the Bank's
                           role as a catalyst for entrepreneurship, supporting
                           MSMEs, expanding financial inclusion, and creating
                           sustainable economic opportunities across the
                           communities it serves.
-                          <br />
-                          <br />
-                          Ahmed holds postgraduate qualifications in
+                          
+Ahmed holds postgraduate qualifications in
                           Environmental Resource Management and Climatology, a
                           Master's degree in Water Management and Governance
                           from IHE Delft Institute for Water Education, and a
@@ -211,8 +202,8 @@ export const DP = () => {
                       </p>
                     </li>
                     <li>
-                        <br /><br /><br />
-                      <p>
+                        
+<p>
                         <h2>BOARD COMMITTEES </h2>{" "}
                         <span>
                           {" "}
@@ -240,9 +231,8 @@ export const DP = () => {
                     </li>
                     <li>
                       <p>
-                       <br />
-                       <br />
-                        <span>
+                       
+<span>
                           {" "}
                           1. Establishment and General-Purpose Committee
                         </span>{" "}

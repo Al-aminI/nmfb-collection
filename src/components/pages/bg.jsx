@@ -8,11 +8,9 @@ export const BG = () => {
           <div className="col-xs-12">
             <div className="col-xs-12">
               <div className="about-text">
-                <br />
-                <br />
-                <br />
-                <br />
-                <h2>Background</h2>
+                <div className="page-head">
+      <h2>Background</h2>
+    </div>
 
                 <h3>Background</h3>
                 <div className="cg-text">

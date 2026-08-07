@@ -5,25 +5,52 @@ export const About = (props) => {
     <div id="about">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/open_account.jpeg" className="img-responsive" alt="" />{" "}
-          </div>
-          <div className="col-xs-12 col-md-6">
-            <div className="about-text">
-              <h2>START SAVING TODAY</h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>TAKE THESE STEPS TO OPENING AN ACCOUNT</h3>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
+          <div className="col-xs-12 col-md-6" data-reveal>
+            <div className="about-media">
+              <div className="about-badge-ring">
+                <div className="inner">
+                  <div className="n">30+</div>
+                  <div className="t">Years of Trust</div>
                 </div>
+              </div>
+              <div className="about-img-wrap">
+                <img
+                  src="img/open_account.jpeg"
+                  className="img-responsive"
+                  alt="Opening an account at Nasarawa Microfinance Bank"
+                />
+              </div>
+              <div className="about-card-float">
+                <div className="af-icon">
+                  <i className="fa fa-university"></i>
+                </div>
+                <div>
+                  <div className="n">Flexible Savings</div>
+                  <div className="t">Built around your income</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-xs-12 col-md-6"
+            data-reveal
+            style={{ "--d": "0.15s" }}
+          >
+            <div className="about-text">
+              <div className="eyebrow">About Us</div>
+              <h2>Start saving today</h2>
+              <p>{props.data ? props.data.paragraph : "loading..."}</p>
+              <h3>Three simple steps to open an account</h3>
+              <div className="about-steps">
+                <ul>
+                  {props.data
+                    ? props.data.Why.map((d, i) => (
+                        <li key={`${d}-${i}`}>
+                          <span>{d}</span>
+                        </li>
+                      ))
+                    : "loading"}
+                </ul>
               </div>
             </div>
           </div>
