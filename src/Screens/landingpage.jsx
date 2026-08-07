@@ -11,6 +11,7 @@ import { Videos } from "../components/landingPage/videos";
 import { Testimonials } from "../components/landingPage/testimonials";
 import { Team } from "../components/landingPage/Team";
 import { Vision } from "../components/landingPage/vision";
+import { CtaBanner } from "../components/landingPage/ctaBanner";
 import { Contact } from "../components/landingPage/contact";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -40,6 +41,7 @@ export const LandingPage = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Vision data={landingPageData.Vision} />
+      <CtaBanner />
       <Contact data={landingPageData.Contact} />
     </div>
   );

@@ -19,6 +19,7 @@ import { RDBPage } from "./Screens/prdspages/rdbpage";
 import { SAVINGSPage } from "./Screens/prdspages/savingspage";
 import { SFAPage } from "./Screens/sfapage";
 import { PrivacyPolicyPage } from "./Screens/privacyPolicyPage";
+import { GalleryPage } from "./Screens/galleryPage";
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 
@@ -64,6 +65,7 @@ observeAll();
        <BrowserRouter>
         <Routes>
           <Route path='/' element={ <LandingPage /> } />
+           <Route path='/gallery' element={ <GalleryPage /> } />
           <Route path='/corporateGovernance' element={ <CGPage /> } />
           <Route path='/corporateInformation' element={ <CIPage /> } />
           <Route path='/briefHistory' element={ <BHPage /> } />

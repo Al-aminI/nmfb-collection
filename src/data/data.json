@@ -325,19 +325,58 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-motorcycle",
-      "name": "Hire purchase and Leasing program",
-      "text": "Own assets that would improve your income without hurdles. "
-    },
-    {
-      "icon": "fa fa-book",
-      "name": "Educational finance savings scheme",
-      "text": "Planning to meet your children's school fees within the context of your income."
+      "icon": "fa fa-money",
+      "name": "Adashe Daily Savings",
+      "text": "Daily, weekly or monthly contribution savings with access to credit three times your savings.",
+      "link": "/adashe"
     },
     {
       "icon": "fa fa-leaf",
-      "name": "Astute farming",
-      "text": "Understanding the techniques of farming and agricultural value chain."
+      "name": "Astute Farming",
+      "text": "Group agricultural scheme upgrading farmers to modern mechanized farming.",
+      "link": "/dabara"
+    },
+    {
+      "icon": "fa fa-book",
+      "name": "Educational Finance",
+      "text": "Plan and meet your children's school fees within the context of your income.",
+      "link": "/ilimiJari"
+    },
+    {
+      "icon": "fa fa-motorcycle",
+      "name": "Hire Purchase & Leasing",
+      "text": "Own assets that improve your income without hurdles through our lease program.",
+      "link": "/guntunGatarinka"
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Hajj / Christmas Savings",
+      "text": "Save towards your Hajj pilgrimage or festive celebrations stress-free.",
+      "link": "/hajjSavings"
+    },
+    {
+      "icon": "fa fa-piggy-bank",
+      "name": "Ordinary Savings",
+      "text": "Personal or group savings to safeguard your hard-earned income with monthly interest.",
+      "link": "/Savings"
+    },
+    {
+      "icon": "fa fa-child",
+      "name": "Infant Savings",
+      "text": "A dedicated savings account to secure your children's future and upbringing.",
+      "link": "/infantSavings"
+    },
+    {
+      "icon": "fa fa-wrench",
+      "name": "Inganta Sana'ar Ka",
+      "text": "Lease or hire purchase savings scheme to improve your artisan capacity.",
+      "link": "/ingantaSanaa"
+    },
+    {
+      "icon": "fa fa-heart",
+      "name": "Rai da Buri",
+      "text": "A bridging facility to meet household needs — marriages, naming ceremonies, bills.",
+      "link": "/raiDaBuri"
     }
   ],
   "Testimonials": [
