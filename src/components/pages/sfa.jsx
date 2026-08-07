@@ -6,6 +6,7 @@ export const SFA = () => {
     <div className="sfa-page">
       <div className="sfa-hero">
         <div className="container text-center">
+          <span className="eyebrow on-dark">Transparency</span>
           <h1>Statement of Financial Affairs</h1>
           <p>
             Transparency you can trust. Explore Nasarawa Microfinance Bank
@@ -31,40 +32,35 @@ export const SFA = () => {
         </div>
       </div>
 
-      <div className="container">
-        <div className="row">
-          <div className="col-xs-12">
-            <div className="about-text">
-              <br />
-              <div className="cg-text sfa-viewer">
-                <iframe
-                  src={pdfUrl}
-                  title="Nasarawa Microfinance Bank Ltd - Statement of Financial Affairs"
-                  width="100%"
-                  height="1100"
-                  style={{ border: "none" }}
-                  loading="lazy"
-                />
-              </div>
-              <br />
-              <br />
-              <div className="sfa-archive">
-                <h3>Statement of Financial Affairs</h3>
-                <p>
-                  The document below provides the official statement of
-                  financial affairs of Nasarawa Microfinance Bank Ltd. Use the
-                  buttons above to view it in a new tab or download a copy for
-                  your records.
-                </p>
-                <div className="cg-text">
-                  <img src="img/sfa.png" alt="sfa" />
-                </div>
-                <br />
-                <br />
-                <div className="cg-text">
-                  <img src="img/P&L.png" alt="P&L" />
-                </div>
-              </div>
+      <div className="sfa-body" style={{ padding: "50px 0 90px" }}>
+        <div className="container">
+          <div className="cg-text sfa-viewer" data-reveal>
+            <iframe
+              src={pdfUrl}
+              title="Nasarawa Microfinance Bank Ltd - Statement of Financial Affairs"
+              width="100%"
+              height="1100"
+              style={{ border: "none" }}
+              loading="lazy"
+            />
+          </div>
+
+          <div className="sfa-archive" data-reveal>
+            <div className="body-head" style={{ marginBottom: 24 }}>
+              <span className="bh-bar"></span>
+              <h3>Financial Statements</h3>
+            </div>
+            <p style={{ color: "var(--muted)", fontSize: 16, marginBottom: 30 }}>
+              The documents below provide the official statement of financial
+              affairs of Nasarawa Microfinance Bank Ltd. Use the buttons above
+              to view the full document in a new tab or download a copy for your
+              records.
+            </p>
+            <div className="cg-text" style={{ marginBottom: 20 }}>
+              <img src="img/sfa.png" alt="Statement of Financial Affairs" />
+            </div>
+            <div className="cg-text">
+              <img src="img/P&L.png" alt="Profit and Loss" />
             </div>
           </div>
         </div>
