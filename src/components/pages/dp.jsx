@@ -137,6 +137,74 @@ export const DP = () => {
                       </p>
                     </li>
                     <li>
+                        <br />
+                      <p>
+                        <h3>
+                          5. Ahmed Jibrin Ahmed{" "}
+                          <span>
+                            <i>Director</i>
+                          </span>{" "}
+                        </h3>{" "}
+                        <span>
+                          {" "}
+                          Ahmed Jibrin Ahmed is a Director and Board Member of
+                          Nasarawa Microfinance Bank, where he also serves as
+                          Chairman of the Board Establishment and
+                          General-Purpose Committee. In these roles, he provides
+                          strategic oversight of the Bank's governance, human
+                          capital, institutional policies, and operational
+                          performance, contributing to sound corporate
+                          governance, financial sustainability, and inclusive
+                          economic growth.
+                          <br />
+                          <br />
+                          A COREN-registered Water Resources Engineer, Ahmed
+                          brings over 14 years of experience spanning
+                          engineering, climate resilience, infrastructure
+                          development, and institutional governance. He has
+                          served in technical and professional roles with the
+                          National Water Resources Institute (NWRI), the Lower
+                          Benue River Basin Development Authority, and the
+                          Nigerian Meteorological Agency (NiMet). Throughout his
+                          career, he has contributed to high-impact projects in
+                          water supply, sanitation, climate resilience, and
+                          sustainable infrastructure, working with government
+                          institutions, development partners, and the private
+                          sector.
+                          <br />
+                          <br />
+                          Beyond his professional career, Ahmed is a passionate
+                          social entrepreneur with a strong commitment to
+                          empowering small and medium-sized enterprises (SMEs).
+                          Having founded and managed several SMEs, he
+                          understands firsthand the opportunities and challenges
+                          faced by entrepreneurs. This practical experience
+                          informs his advocacy for financial inclusion,
+                          enterprise development, and improved access to
+                          responsible financial services that enable businesses
+                          and communities to prosper.
+                          <br />
+                          <br />
+                          As a member of the Board of Nasarawa Microfinance
+                          Bank, Ahmed is committed to strengthening the Bank's
+                          role as a catalyst for entrepreneurship, supporting
+                          MSMEs, expanding financial inclusion, and creating
+                          sustainable economic opportunities across the
+                          communities it serves.
+                          <br />
+                          <br />
+                          Ahmed holds postgraduate qualifications in
+                          Environmental Resource Management and Climatology, a
+                          Master's degree in Water Management and Governance
+                          from IHE Delft Institute for Water Education, and a
+                          PhD in Disaster Risk Management. His interdisciplinary
+                          expertise strengthens the Bank's vision of building
+                          resilient communities through sustainable finance,
+                          innovation, and responsible governance.
+                        </span>{" "}
+                      </p>
+                    </li>
+                    <li>
                         <br /><br /><br />
                       <p>
                         <h2>BOARD COMMITTEES </h2>{" "}
