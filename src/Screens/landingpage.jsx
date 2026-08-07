@@ -6,6 +6,7 @@ import { Features } from "../components/landingPage/features";
 import { About } from "../components/landingPage/about";
 import { Services } from "../components/landingPage/services";
 import { Gallery } from "../components/landingPage/gallery";
+import { Videos } from "../components/landingPage/videos";
 import { Testimonials } from "../components/landingPage/testimonials";
 import { Team } from "../components/landingPage/Team";
 import { Vision } from "../components/landingPage/vision";
@@ -33,6 +34,7 @@ export const LandingPage = () => {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />
+      <Videos />
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Vision data={landingPageData.Vision} />

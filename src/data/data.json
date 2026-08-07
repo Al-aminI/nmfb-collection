@@ -9,9 +9,7 @@
       "OPEN AN ACCOUNT BASED ON YOUR NEEDS",
       "FUND THE ACCOUNT BASED ON YOUR CAPACITY",
       "APPLY FOR LOAN AFTER A PERIOD TO BOOST YOUR CAPACITY"
-      
     ]
-    
   },
   "Gallery": [
     {
@@ -43,6 +41,286 @@
       "title": "ADASHE SAVINGS",
       "largeImage": "img/portfolio/5.png",
       "smallImage": "img/portfolio/5.png"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750408170594.jpg",
+      "smallImage": "img/gallery/1750408170594.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750408170606.jpg",
+      "smallImage": "img/gallery/1750408170606.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750408170621.jpg",
+      "smallImage": "img/gallery/1750408170621.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750408170638.jpg",
+      "smallImage": "img/gallery/1750408170638.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750408170653.jpg",
+      "smallImage": "img/gallery/1750408170653.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750408170671.jpg",
+      "smallImage": "img/gallery/1750408170671.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414321.jpg",
+      "smallImage": "img/gallery/1750755414321.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414333.jpg",
+      "smallImage": "img/gallery/1750755414333.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414344.jpg",
+      "smallImage": "img/gallery/1750755414344.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414353.jpg",
+      "smallImage": "img/gallery/1750755414353.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414362.jpg",
+      "smallImage": "img/gallery/1750755414362.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414376.jpg",
+      "smallImage": "img/gallery/1750755414376.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414388.jpg",
+      "smallImage": "img/gallery/1750755414388.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414399.jpg",
+      "smallImage": "img/gallery/1750755414399.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414413.jpg",
+      "smallImage": "img/gallery/1750755414413.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414425.jpg",
+      "smallImage": "img/gallery/1750755414425.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414439.jpg",
+      "smallImage": "img/gallery/1750755414439.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414455.jpg",
+      "smallImage": "img/gallery/1750755414455.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1750755414485.jpg",
+      "smallImage": "img/gallery/1750755414485.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829102.jpg",
+      "smallImage": "img/gallery/1751016829102.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829113.jpg",
+      "smallImage": "img/gallery/1751016829113.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829122.jpg",
+      "smallImage": "img/gallery/1751016829122.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829132.jpg",
+      "smallImage": "img/gallery/1751016829132.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829144.jpg",
+      "smallImage": "img/gallery/1751016829144.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829155.jpg",
+      "smallImage": "img/gallery/1751016829155.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829170.jpg",
+      "smallImage": "img/gallery/1751016829170.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829214.jpg",
+      "smallImage": "img/gallery/1751016829214.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829226.jpg",
+      "smallImage": "img/gallery/1751016829226.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829239.jpg",
+      "smallImage": "img/gallery/1751016829239.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829251.jpg",
+      "smallImage": "img/gallery/1751016829251.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829262.jpg",
+      "smallImage": "img/gallery/1751016829262.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829277.jpg",
+      "smallImage": "img/gallery/1751016829277.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829288.jpg",
+      "smallImage": "img/gallery/1751016829288.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829303.jpg",
+      "smallImage": "img/gallery/1751016829303.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829314.jpg",
+      "smallImage": "img/gallery/1751016829314.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829327.jpg",
+      "smallImage": "img/gallery/1751016829327.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829340.jpg",
+      "smallImage": "img/gallery/1751016829340.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829354.jpg",
+      "smallImage": "img/gallery/1751016829354.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829377.jpg",
+      "smallImage": "img/gallery/1751016829377.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829388.jpg",
+      "smallImage": "img/gallery/1751016829388.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829400.jpg",
+      "smallImage": "img/gallery/1751016829400.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829419.jpg",
+      "smallImage": "img/gallery/1751016829419.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829429.jpg",
+      "smallImage": "img/gallery/1751016829429.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829438.jpg",
+      "smallImage": "img/gallery/1751016829438.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829449.jpg",
+      "smallImage": "img/gallery/1751016829449.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829460.jpg",
+      "smallImage": "img/gallery/1751016829460.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829474.jpg",
+      "smallImage": "img/gallery/1751016829474.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1751016829484.jpg",
+      "smallImage": "img/gallery/1751016829484.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1752230675387.jpg",
+      "smallImage": "img/gallery/1752230675387.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1752230675402.jpg",
+      "smallImage": "img/gallery/1752230675402.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1752230675439.jpg",
+      "smallImage": "img/gallery/1752230675439.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1752230675454.jpg",
+      "smallImage": "img/gallery/1752230675454.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1752230675470.jpg",
+      "smallImage": "img/gallery/1752230675470.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1752230675495.jpg",
+      "smallImage": "img/gallery/1752230675495.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1752230675518.jpg",
+      "smallImage": "img/gallery/1752230675518.jpg"
+    },
+    {
+      "title": "Nasarawa Microfinance Bank",
+      "largeImage": "img/gallery/1752230675531.jpg",
+      "smallImage": "img/gallery/1752230675531.jpg"
     }
   ],
   "Services": [
@@ -77,13 +355,10 @@
       "img": "img/testimonials/10.jpg",
       "text": "\"How I wish all banks could emulate the services of this bank. we are in a very remote area, where there is no network of telephone services, no motorable road and all the good things of modern life. Despite our state, the bank came to our rescue by providing loans in term of seedinglings, agro chemicals and also cash to assist us on our main business 'farming'. This year 2023 had been the best farming season as all the surrounding communities had good yield\"",
       "name": "Samuel Yusuf"
-
-
-      
     },
     {
       "img": "img/testimonials/14.jpg",
-      "text": "\"Iam a civil servant that initially moved my account to a Commercial bank for a big loan, but their stringent conditions drove me out: I have to come back to this bank, based on a simple reason that this type of bank is the only one that can assist low income earners", 
+      "text": "\"Iam a civil servant that initially moved my account to a Commercial bank for a big loan, but their stringent conditions drove me out: I have to come back to this bank, based on a simple reason that this type of bank is the only one that can assist low income earners",
       "name": "Rabi'at Usman"
     },
     {
@@ -121,11 +396,13 @@
   ],
   "Contact": {
     "address": "Nasarawa Microfinance Bank Ltd, N0.17 Umaru Makama Dogo Road, Nasarawa ",
-    "phone": "+234 8067346241",
+    "phone": "+234 9169548959",
     "email": "info@nasmfb.com",
-    "facebook": "nasmfbank.com",
-    "twitter": "nasmfb.com",
-    "youtube": "nasmfbank.com"
+    "facebook": "https://www.facebook.com/search/top?q=nasarawa%20microfinance%20bank%20ltd",
+    "twitter": "https://twitter.com/nasmfb",
+    "youtube": "https://www.youtube.com/@nasmfb",
+    "instagram": "https://www.instagram.com/nasmfb_1993",
+    "tiktok": "https://www.tiktok.com/@nasmicrofinancebankltd"
   },
   "Features": [
     {

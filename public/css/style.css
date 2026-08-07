@@ -408,6 +408,17 @@ header .intro-text {
 #portfolio {
   padding: 100px 0;
 }
+/* Videos Section */
+#videos {
+  padding: 100px 0;
+  background: #f6f6f6;
+}
+#videos video {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  background: #000;
+}
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
@@ -635,6 +646,19 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
+  color: #608dfd;
+  background: #fff;
+}
+#contact .social .social-svg {
+  width: 48px;
+  height: 48px;
+  padding: 13px 0;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+#contact .social a:hover .social-svg {
   color: #608dfd;
   background: #fff;
 }
