@@ -2297,11 +2297,14 @@ label {
   font-size: 17px;
   width: 52px;
   height: 52px;
-  padding: 15px 0;
+  padding: 0;
   border: 1.5px solid var(--line);
   color: var(--ink-2);
   border-radius: 50%;
   background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: all 0.35s var(--ease);
 }
 
