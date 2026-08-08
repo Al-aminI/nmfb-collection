@@ -176,8 +176,8 @@ export const Contact = (props) => {
                     >
                       <svg
                         className="social-svg"
-                        width="18"
-                        height="18"
+                        width="14"
+                        height="14"
                         viewBox="0 0 24 24"
                         fill="currentColor"
                         aria-hidden="true"
