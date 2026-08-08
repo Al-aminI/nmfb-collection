@@ -370,6 +370,10 @@ a:focus,
   align-items: center;
   gap: 10px;
 }
+#menu .navbar-brand img {
+  height: 48px;
+  width: auto;
+}
 
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Inter", sans-serif;
@@ -447,7 +451,8 @@ li:hover .dropdown-icon {
   z-index: 1000;
 }
 
-li:hover ul.dropdown-menu {
+li:hover ul.dropdown-menu,
+li.has-dropdown.open ul.dropdown-menu {
   display: block;
   animation: fadeDown 0.32s var(--ease);
 }
@@ -493,26 +498,7 @@ li:hover ul.dropdown-menu {
   border-radius: 3px;
 }
 
-@media (max-width: 768px) {
-  #menu .navbar-collapse {
-    background: rgba(9, 30, 20, 0.97);
-    border-radius: 20px;
-    margin-top: 12px;
-    padding: 16px 20px;
-    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.5);
-  }
-  #menu.navbar-default .navbar-nav > li > a {
-    margin: 3px 0;
-    padding: 12px 4px;
-  }
-  .dropdown-menu {
-    position: static;
-    box-shadow: none;
-    border: 0;
-    background: rgba(255, 255, 255, 0.05);
-    margin: 4px 0 8px;
-  }
-}
+/* Navigation mobile dropdown styles handled in responsive section below */
 
 /* ---------------- HERO ---------------- */
 .intro {
@@ -2647,6 +2633,8 @@ label {
 }
 
 /* ---------------- Responsive ---------------- */
+
+/* ===== Tablet (992px and below) ===== */
 @media (max-width: 992px) {
   .bento {
     grid-template-columns: repeat(2, 1fr);
@@ -2664,42 +2652,128 @@ label {
   .about-badge-ring {
     right: 10px;
   }
+  .intro h1 {
+    font-size: clamp(36px, 6vw, 56px);
+  }
+  .hero-trust {
+    gap: 18px;
+  }
+  .hero-trust span {
+    font-size: 12px;
+  }
+  .cta-inner {
+    gap: 40px;
+  }
+  .cta-left h2 {
+    font-size: clamp(26px, 3.5vw, 38px);
+  }
+  #cg .page-head {
+    padding: 110px 0 50px;
+  }
+  #cg .page-head h2 {
+    font-size: clamp(28px, 5vw, 40px);
+  }
+  #cg .prose {
+    padding: 32px 30px;
+  }
+  #cg .info-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #cg .vmv-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+  #cg .committee-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .masonry-grid {
+    column-count: 2;
+  }
 }
 
+/* ===== Mobile (768px and below) ===== */
 @media (max-width: 768px) {
-  #features,
-  #about,
-  #services,
-  #portfolio,
-  #videos,
-  #testimonials,
-  #team,
-  #vision,
-  #contact {
-    padding: 80px 0;
+  /* ---- Navigation ---- */
+  #menu {
+    padding: 8px 0;
   }
-  .bento {
-    grid-template-columns: 1fr;
+  #menu .navbar-brand img {
+    height: 40px;
   }
-  .intro-text {
-    padding: 120px 0 70px;
+  .navbar-toggle {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 10px;
   }
+  .navbar-toggle .icon-bar {
+    width: 26px;
+    height: 3px;
+  }
+  #menu .navbar-collapse {
+    background: rgba(6, 20, 13, 0.98);
+    border-radius: 16px;
+    margin-top: 10px;
+    padding: 14px 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+  #menu.navbar-default .navbar-nav > li > a {
+    margin: 2px 0;
+    padding: 13px 8px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #menu.navbar-default .navbar-nav > li > a:after {
+    display: none;
+  }
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border: 0;
+    background: rgba(255, 255, 255, 0.04);
+    margin: 2px 0 6px;
+    padding: 6px 0;
+    min-width: 100%;
+    border-radius: 12px;
+  }
+  .dropdown-menu > li > a {
+    padding: 11px 18px;
+    font-size: 13px;
+    border-radius: 8px;
+  }
+  li.has-dropdown.open > a .dropdown-icon {
+    transform: rotate(180deg);
+  }
+
+  /* ---- Hero ---- */
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 30px;
-    padding: 120px 0 40px;
+    padding: 110px 0 40px;
   }
   .hero-left {
     text-align: center;
   }
-  .intro h1 { margin-left: auto; margin-right: auto; }
-  .intro p { margin-left: auto; margin-right: auto; }
-  .hero-trust { justify-content: center; }
-  .intro .hero-stats {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px 20px;
-    max-width: 340px;
-    margin: 20px auto 0;
+  .intro h1 {
+    font-size: clamp(32px, 8vw, 44px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .intro p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
+  .hero-trust {
+    justify-content: center;
+    gap: 16px;
+    margin-top: 28px;
+  }
+  .hero-trust span {
+    font-size: 11.5px;
   }
   .intro .hero-actions {
     flex-direction: column;
@@ -2710,58 +2784,403 @@ label {
     max-width: 320px;
   }
   .intro .hero-visual {
-    margin-top: 50px;
-    max-width: 340px;
+    margin-top: 40px;
+    max-width: 320px;
   }
-  .float-chip.fc-1 { left: 0; }
-  .float-chip.fc-2 { right: 0; }
-  .float-chip.fc-3 { right: -6%; }
+  .float-chip {
+    padding: 10px 14px;
+  }
+  .float-chip i.fa {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+  .float-chip .t { font-size: 10px; }
+  .float-chip .v { font-size: 12px; }
+  .float-chip.fc-1 { left: -4%; top: -4%; }
+  .float-chip.fc-2 { right: -4%; bottom: -2%; }
+  .float-chip.fc-3 { right: -4%; top: 45%; }
+  .intro .hero-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 20px;
+    max-width: 360px;
+    margin: 20px auto 0;
+  }
+  .intro .hero-stat .num { font-size: 30px; }
+
+  /* ---- Sections ---- */
+  #features,
+  #about,
+  #services,
+  #portfolio,
+  #videos,
+  #testimonials,
+  #team,
+  #vision,
+  #contact {
+    padding: 64px 0;
+  }
+  .section-title {
+    margin-bottom: 40px;
+  }
+  .section-title h2 {
+    font-size: clamp(24px, 5vw, 32px);
+  }
+  .section-title p {
+    font-size: 15px;
+  }
+
+  /* ---- Features (bento) ---- */
+  .bento {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .bento .feature-card {
+    padding: 28px 24px;
+  }
+  .bento .feature-card.big h3 {
+    font-size: 22px;
+  }
+  .bento .f-icon {
+    width: 52px;
+    height: 52px;
+    font-size: 22px;
+  }
+
+  /* ---- About ---- */
   .about-media img {
-    height: 380px;
-  }
-  .about-card-float {
-    padding: 16px 20px;
-    bottom: 20px;
+    height: 320px;
   }
   .about-badge-ring {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
   .about-badge-ring .inner {
-    width: 86px;
-    height: 86px;
+    width: 76px;
+    height: 76px;
   }
   .about-badge-ring .inner .n {
+    font-size: 16px;
+  }
+  .about-badge-ring .inner .t {
+    font-size: 9px;
+  }
+  .about-card-float {
+    padding: 14px 18px;
+    bottom: 18px;
+    left: 10px;
+    gap: 12px;
+  }
+  .about-card-float .af-icon {
+    width: 42px;
+    height: 42px;
     font-size: 18px;
   }
+  .about-card-float .n { font-size: 14px; }
+  .about-card-float .t { font-size: 11px; }
+
+  /* ---- Services ---- */
+  .service-card {
+    padding: 32px 24px 28px;
+    min-height: auto;
+  }
+  .service-card i.fa {
+    width: 56px;
+    height: 56px;
+    font-size: 22px;
+  }
+  .sc-cta {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* ---- Gallery / Portfolio ---- */
+  .portfolio-item .hover-bg img {
+    height: 200px;
+  }
+  .hover-bg .hover-text {
+    padding: 16px;
+  }
+  .gallery-more {
+    margin-top: 36px;
+  }
+
+  /* ---- Videos ---- */
+  #videos video {
+    border-radius: var(--r-sm);
+  }
+
+  /* ---- Testimonials ---- */
+  .testimonial {
+    padding: 28px 24px;
+  }
+
+  /* ---- Team ---- */
+  .team .team-img {
+    height: 260px;
+  }
+
+  /* ---- Vision ---- */
+  .vision-item {
+    padding: 30px 24px;
+  }
+
+  /* ---- Contact ---- */
+  #contact {
+    padding: 64px 0 0;
+  }
   #contact form {
-    padding: 26px;
+    padding: 26px 22px;
+  }
+  #contact .social {
+    padding: 40px 0;
+    margin-top: 50px;
+  }
+  #contact .social ul li {
+    margin: 0 8px;
+  }
+  #contact .social i.fa,
+  #contact .social .social-svg {
+    width: 46px;
+    height: 46px;
+    padding: 13px 0;
+    font-size: 15px;
   }
   .contact-item {
     padding: 20px;
+    gap: 14px;
   }
-  .portfolio-item .hover-bg img {
-    height: 220px;
+  .contact-item .icon {
+    width: 44px;
+    height: 44px;
+    font-size: 18px;
   }
+  .contact-item:hover {
+    transform: none;
+  }
+
+  /* ---- Footer ---- */
+  #footer {
+    padding: 32px 0;
+  }
+  #footer p {
+    font-size: 12.5px;
+  }
+
+  /* ---- Marquee ---- */
+  .marquee-item {
+    font-size: 13px;
+    gap: 40px;
+  }
+  .marquee-item span {
+    gap: 14px;
+  }
+
+  /* ---- CTA Banner ---- */
+  .cta-banner {
+    padding: 64px 0;
+  }
+  .cta-inner {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .cta-left h2 {
+    font-size: clamp(26px, 5.5vw, 34px);
+  }
+  .cta-left p {
+    font-size: 15px;
+  }
+  .cta-balance {
+    max-width: 100%;
+    padding: 26px;
+  }
+  .cta-balance .cb-amount {
+    font-size: 34px;
+  }
+  .cta-actions {
+    flex-direction: column;
+  }
+  .cta-actions .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* ---- Inner pages ---- */
   #cg {
-    padding-top: 80px;
+    padding-top: 70px;
   }
-  #cg .prose { padding: 28px 24px; }
-  #cg .body-lead { font-size: 18px; margin: 36px 0 28px; }
-  #cg .info-grid { grid-template-columns: 1fr; }
-  #cg .vmv-grid { grid-template-columns: 1fr; }
+  #cg .page-head {
+    padding: 90px 0 44px;
+  }
+  #cg .page-head h2 {
+    font-size: clamp(26px, 6vw, 34px);
+  }
+  #cg .page-head p {
+    font-size: 15px;
+  }
+  .page-body {
+    padding: 0 0 64px;
+  }
+  #cg .prose {
+    padding: 24px 20px;
+  }
+  #cg .prose p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  #cg .body-lead {
+    font-size: 17px;
+    margin: 30px 0 24px;
+  }
+  #cg .body-head {
+    margin: 40px 0 18px;
+  }
+  #cg .info-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  #cg .info-card {
+    padding: 22px 20px;
+  }
+  #cg .vmv-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  #cg .vmv-card {
+    padding: 28px 22px;
+  }
   #cg .director-card {
     grid-template-columns: 1fr;
-    gap: 22px;
-    padding: 26px 24px;
+    gap: 20px;
+    padding: 24px 20px;
   }
-  #cg .director-card .d-photo { max-width: 180px; }
-  #cg .committee-grid { grid-template-columns: 1fr; }
-  #cg .pp-section { padding: 24px 20px; }
+  #cg .director-card .d-photo {
+    max-width: 150px;
+  }
+  #cg .director-card .d-name {
+    font-size: 19px;
+  }
+  #cg .director-card .d-bio {
+    font-size: 14.5px;
+    line-height: 1.75;
+  }
+  #cg .committee-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  #cg .pp-section {
+    padding: 22px 18px;
+  }
+  #cg .product-tagline {
+    font-size: 17px;
+  }
+  .fg-tabs {
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+  .fg-tab {
+    padding: 9px 16px;
+    font-size: 12.5px;
+  }
+  .masonry-grid {
+    column-count: 1;
+    column-gap: 16px;
+  }
+  .masonry-item {
+    margin-bottom: 16px;
+  }
+  .lightbox img {
+    max-width: 95vw;
+    max-height: 80vh;
+    border-radius: var(--r-sm);
+  }
+  .lightbox-close {
+    top: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
 }
 
-@media (max-width: 420px) {
+/* ===== Small mobile (480px and below) ===== */
+@media (max-width: 480px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .intro h1 {
-    font-size: 34px;
+    font-size: 30px;
+  }
+  .intro p {
+    font-size: 15px;
+  }
+  .intro .hero-stat .num {
+    font-size: 26px;
+  }
+  .intro .hero-stat .label {
+    font-size: 11px;
+  }
+  .hero-trust {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .float-chip .t { font-size: 9px; }
+  .float-chip .v { font-size: 11px; }
+  .bank-card {
+    padding: 22px;
+    border-radius: 18px;
+  }
+  .bank-card .bc-num {
+    font-size: 18px;
+  }
+  .section-title h2 {
+    font-size: 22px;
+  }
+  .bento .feature-card {
+    padding: 24px 20px;
+  }
+  .about-media img {
+    height: 260px;
+  }
+  .about-badge-ring {
+    width: 78px;
+    height: 78px;
+  }
+  .about-badge-ring .inner {
+    width: 64px;
+    height: 64px;
+  }
+  #cg .page-head h2 {
+    font-size: 24px;
+  }
+  #cg .prose {
+    padding: 20px 16px;
+  }
+  .cta-balance .cb-amount {
+    font-size: 28px;
+  }
+  .marquee-item {
+    font-size: 12px;
+  }
+}
+
+/* ===== Extra small (380px and below) ===== */
+@media (max-width: 380px) {
+  .intro h1 {
+    font-size: 26px;
+  }
+  .intro .hero-stats {
+    gap: 20px 14px;
+  }
+  .intro .hero-stat .num {
+    font-size: 22px;
+  }
+  #menu .navbar-brand img {
+    height: 34px;
+  }
+  .navbar-toggle .icon-bar {
+    width: 22px;
   }
 }
