@@ -9,63 +9,25 @@ const initialState = {
 
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
-  const [emailDraft, setEmailDraft] = useState(null);
-  const [copied, setCopied] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
-  const clearState = () => setState({ ...initialState });
 
-  const handleSubmitEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     const to = props.data ? props.data.email : "info@nasmfbank.com";
     const subject = `Website Contact – Message from ${name || "a visitor"}`;
     const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
-    // Try to open the user's email client (works on most mobile + desktop clients)
     window.location.href = `mailto:${to}?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(body)}`;
-    // Show a compose panel as a fallback in case mail client does not open
-    setEmailDraft({ to, subject, body });
-    setCopied(false);
   };
 
-  const copyEmail = async () => {
-    try {
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        await navigator.clipboard.writeText(emailDraft.body);
-      } else {
-        // Fallback for older browsers
-        const ta = document.createElement("textarea");
-        ta.value = emailDraft.body;
-        ta.style.position = "fixed";
-        ta.style.opacity = "0";
-        document.body.appendChild(ta);
-        ta.select();
-        document.execCommand("copy");
-        document.body.removeChild(ta);
-      }
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2500);
-    } catch (err) {
-      // ignore
-    }
-  };
-
-  const closeEmailDraft = () => {
-    setEmailDraft(null);
-    clearState();
-  };
-
-  const handleWhatsApp = () => {
-    const whatsappNumber = props.data
-      ? props.data.phone.replace(/[^0-9]/g, "")
-      : "2349169548959";
-    window.open(`https://wa.me/${whatsappNumber}`, "_blank", "noopener");
-  };
-
+  const whatsappNumber = props.data
+    ? props.data.phone.replace(/[^0-9]/g, "")
+    : "2349169548959";
   const contactEmail = props.data ? props.data.email : "info@nasmfbank.com";
 
   return (
@@ -78,11 +40,11 @@ export const Contact = (props) => {
                 <div className="eyebrow">We'd Love to Hear From You</div>
                 <h2>Get In Touch</h2>
                 <p>
-                  Get in touch via email below, or click WhatsApp to start a
-                  quick chat. We respond promptly during business hours.
+                  Please fill out the form below to send us an email and we will
+                  get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmitEmail}>
+              <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -91,7 +53,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Your Name"
+                        placeholder="Name"
                         required
                         onChange={handleChange}
                         value={name}
@@ -106,7 +68,7 @@ export const Contact = (props) => {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder="Your Email"
+                        placeholder="Email"
                         required
                         onChange={handleChange}
                         value={email}
@@ -121,96 +83,18 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Your Message (sent by email only)"
+                    placeholder="Message"
                     required
                     onChange={handleChange}
                     value={message}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
-
-                <div className="contact-buttons">
-                  <button
-                    type="submit"
-                    className="btn btn-custom btn-lg btn-hero-primary"
-                    disabled={!name || !email || !message}
-                  >
-                    <i className="fa fa-envelope"></i> Send Email
-                  </button>
-                  <button
-                    type="button"
-                    onClick={handleWhatsApp}
-                    className="btn btn-custom btn-lg btn-whatsapp"
-                  >
-                    <i className="fa fa-whatsapp"></i> Chat on WhatsApp
-                  </button>
-                </div>
-                <p className="contact-help-text">
-                  <i className="fa fa-info-circle"></i>
-                  <strong>Send Email</strong> delivers your message above.{" "}
-                  <strong>Chat on WhatsApp</strong> just opens a chat — your
-                  message stays here for email only.
-                </p>
+                <div id="success"></div>
+                <button type="submit" className="btn btn-custom btn-lg">
+                  Send Message
+                </button>
               </form>
-
-              {emailDraft && (
-                <div className="email-draft" data-reveal>
-                  <div className="email-draft-head">
-                    <div>
-                      <span className="ed-badge">
-                        <i className="fa fa-envelope"></i> Email Draft Ready
-                      </span>
-                      <h3>If your email app didn't open…</h3>
-                      <p className="ed-instructions">
-                        Compose a new email to{" "}
-                        <a href={`mailto:${emailDraft.to}`}>
-                          <strong>{emailDraft.to}</strong>
-                        </a>
-                        , use the subject below, then paste the message.
-                      </p>
-                    </div>
-                    <button
-                      type="button"
-                      className="ed-close"
-                      onClick={closeEmailDraft}
-                      aria-label="Close"
-                    >
-                      <i className="fa fa-times"></i>
-                    </button>
-                  </div>
-
-                  <div className="ed-field">
-                    <label>Subject</label>
-                    <div className="ed-value ed-readonly">
-                      {emailDraft.subject}
-                    </div>
-                  </div>
-                  <div className="ed-field">
-                    <label>Message</label>
-                    <pre className="ed-value ed-body">{emailDraft.body}</pre>
-                  </div>
-                  <div className="ed-actions">
-                    <button
-                      type="button"
-                      className="btn btn-custom btn-hero-primary"
-                      onClick={copyEmail}
-                    >
-                      <i
-                        className={copied ? "fa fa-check" : "fa fa-copy"}
-                      ></i>
-                      {copied ? "Copied!" : "Copy Message"}
-                    </button>
-                    <a
-                      href={`mailto:${emailDraft.to}?subject=${encodeURIComponent(
-                        emailDraft.subject
-                      )}&body=${encodeURIComponent(emailDraft.body)}`}
-                      className="btn btn-custom btn-ghost-accent"
-                    >
-                      <i className="fa fa-mail-forward"></i> Try Email App Again
-                    </a>
-                  </div>
-                </div>
-              )}
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
@@ -257,6 +141,7 @@ export const Contact = (props) => {
                       href={props.data ? props.data.facebook : "/"}
                       target="_blank"
                       rel="noreferrer"
+                      aria-label="Facebook"
                     >
                       <i className="fa fa-facebook"></i>
                     </a>
@@ -266,8 +151,20 @@ export const Contact = (props) => {
                       href={props.data ? props.data.instagram : "/"}
                       target="_blank"
                       rel="noreferrer"
+                      aria-label="Instagram"
                     >
                       <i className="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={`https://wa.me/${whatsappNumber}`}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="WhatsApp"
+                      className="social-whatsapp"
+                    >
+                      <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>
                   <li>
