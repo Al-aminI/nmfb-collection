@@ -2305,6 +2305,14 @@ label {
   transition: all 0.35s var(--ease);
 }
 
+#contact .social .social-svg {
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
 #contact .social i.fa:hover,
 #contact .social a:hover .social-svg {
   color: #fff;
