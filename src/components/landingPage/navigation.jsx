@@ -30,7 +30,10 @@ export const Navigation = (props) => {
           <button
             type="button"
             className={`navbar-toggle ${menuOpen ? "" : "collapsed"}`}
-            onClick={() => setMenuOpen(!menuOpen)}
+            onClick={(e) => {
+              e.stopPropagation();
+              setMenuOpen(!menuOpen);
+            }}
           >
             <span className="sr-only">Toggle navigation</span>
             <span className="icon-bar"></span>
