@@ -2307,10 +2307,14 @@ label {
 }
 
 #contact .social .social-svg {
-  padding: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 17px;
+  width: 52px;
+  height: 52px;
+  padding: 15px 0;
+  border: 1.5px solid var(--line);
+  color: var(--ink-2);
+  border-radius: 50%;
+  background: var(--surface);
   box-sizing: border-box;
   vertical-align: middle;
 }
