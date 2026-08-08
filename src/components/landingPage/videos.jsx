@@ -3,7 +3,6 @@ import React from "react";
 const videoList = [
   "VID-20250619-WA0004.mp4",
   "VID-20250627-WA0042.mp4",
-  "VID-20250627-WA0042_1.mp4",
   "VID-20250702-WA0002.mp4",
   "VID-20250711-WA0006.mp4",
   "VID-20250711-WA0009.mp4",

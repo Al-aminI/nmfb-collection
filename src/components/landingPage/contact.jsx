@@ -1,5 +1,4 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
 import React from "react";
 
 const initialState = {
@@ -7,33 +6,36 @@ const initialState = {
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [sent, setSent] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-   
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    const to = props.data ? props.data.email : "info@nasmfbank.com";
+    const subject = `Website Contact – Message from ${name || "a visitor"}`;
+    const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0A${encodeURIComponent(
+      message
+    )}`;
+    window.location.href = `mailto:${to}?subject=${encodeURIComponent(
+      subject
+    )}&body=${body}`;
+    setSent(true);
+    clearState();
+    setTimeout(() => setSent(false), 6000);
   };
+
+  const whatsappNumber = props.data
+    ? props.data.phone.replace(/[^0-9]/g, "")
+    : "2349169548959";
+
   return (
     <div>
       <div id="contact">
@@ -41,6 +43,7 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
+                <div className="eyebrow">We'd Love to Hear From You</div>
                 <h2>Get In Touch</h2>
                 <p>
                   Please fill out the form below to send us an email and we will
@@ -56,9 +59,10 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Your Name"
                         required
                         onChange={handleChange}
+                        value={name}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -70,9 +74,10 @@ export const Contact = (props) => {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder="Email"
+                        placeholder="Your Email"
                         required
                         onChange={handleChange}
+                        value={email}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -84,16 +89,37 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Your Message"
                     required
                     onChange={handleChange}
+                    value={message}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
-                </button>
+                <div id="success">
+                  {sent && (
+                    <div className="contact-success">
+                      <i className="fa fa-check-circle"></i> Your email client
+                      has been opened. If it didn't, email us at{" "}
+                      <a href={props.data ? `mailto:${props.data.email}` : "mailto:info@nasmfbank.com"}>
+                        {props.data ? props.data.email : "info@nasmfbank.com"}
+                      </a>
+                    </div>
+                  )}
+                </div>
+                <div className="contact-buttons">
+                  <button type="submit" className="btn btn-custom btn-lg btn-hero-primary">
+                    <i className="fa fa-envelope"></i> Send Message
+                  </button>
+                  <a
+                    href={`https://wa.me/${whatsappNumber}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-custom btn-lg btn-whatsapp"
+                  >
+                    <i className="fa fa-whatsapp"></i> Chat on WhatsApp
+                  </a>
+                </div>
               </form>
             </div>
           </div>
@@ -127,7 +153,9 @@ export const Contact = (props) => {
               <div>
                 <span>Email</span>
                 <p className="value">
-                  {props.data ? props.data.email : "loading"}
+                  <a href={props.data ? `mailto:${props.data.email}` : "mailto:info@nasmfbank.com"}>
+                    {props.data ? props.data.email : "info@nasmfbank.com"}
+                  </a>
                 </p>
               </div>
             </div>
