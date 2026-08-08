@@ -2303,6 +2303,7 @@ label {
   border-radius: 50%;
   background: var(--surface);
   transition: all 0.35s var(--ease);
+  vertical-align: middle;
 }
 
 #contact .social .social-svg {
@@ -2311,6 +2312,7 @@ label {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  vertical-align: middle;
 }
 
 #contact .social i.fa:hover,
