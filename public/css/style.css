@@ -2754,6 +2754,21 @@ label {
 }
 
 /* Management profile cards */
+#cg .mgmt-note {
+  margin-top: 40px;
+  padding: 28px 32px;
+  background: var(--emerald-50);
+  border: 1px solid var(--emerald-100);
+  border-radius: var(--r-md);
+  border-left: 4px solid var(--gold);
+}
+#cg .mgmt-note p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--ink-2);
+  margin-bottom: 14px;
+}
+#cg .mgmt-note p:last-child { margin-bottom: 0; }
 #cg .mgmt-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

@@ -18,26 +18,6 @@ export const MP = () => {
       <div className="page-body">
         <div className="container">
           <div className="page-inner">
-            <div className="prose" data-reveal>
-              <p>
-                The Management is composed of professionals in Microfinance
-                banking who translate the goals, vision and mission of the Bank
-                into reality. The Bank has a hierarchical structure that
-                outlines the horizontal and vertical lines of communication.
-              </p>
-              <p>
-                The importance placed on the vision and mission of the Bank made
-                it focus on agriculture and the agricultural value chain to
-                enable it serve its community very well and also meet its social
-                responsibility effectively.
-              </p>
-            </div>
-
-            <div className="body-head">
-              <span className="bh-bar"></span>
-              <h3>Management Team</h3>
-            </div>
-
             <div className="mgmt-grid">
               {team.map((m, i) => (
                 <div className="mgmt-card" key={i} data-reveal>
@@ -50,6 +30,21 @@ export const MP = () => {
                   </div>
                 </div>
               ))}
+            </div>
+
+            <div className="mgmt-note" data-reveal>
+              <p>
+                The Management is composed of professionals in Microfinance
+                banking who translate the goals, vision and mission of the Bank
+                into reality. The Bank has a hierarchical structure that
+                outlines the horizontal and vertical lines of communication.
+              </p>
+              <p>
+                The importance placed on the vision and mission of the Bank made
+                it focus on agriculture and the agricultural value chain to
+                enable it serve its community very well and also meet its social
+                responsibility effectively.
+              </p>
             </div>
           </div>
         </div>
