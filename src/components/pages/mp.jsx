@@ -1,6 +1,8 @@
 import React from "react";
+import TeamData from "../../data/data.json";
 
 export const MP = () => {
+  const team = TeamData.Team || [];
   return (
     <div id="cg">
       <section className="page-head">
@@ -29,6 +31,25 @@ export const MP = () => {
                 enable it serve its community very well and also meet its social
                 responsibility effectively.
               </p>
+            </div>
+
+            <div className="body-head">
+              <span className="bh-bar"></span>
+              <h3>Management Team</h3>
+            </div>
+
+            <div className="mgmt-grid">
+              {team.map((m, i) => (
+                <div className="mgmt-card" key={i} data-reveal>
+                  <div className="mgmt-photo">
+                    <img src={m.img} alt={m.name} />
+                  </div>
+                  <div className="mgmt-info">
+                    <h3 className="mgmt-name">{m.name}</h3>
+                    <span className="mgmt-role">{m.job}</span>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

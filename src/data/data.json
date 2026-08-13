@@ -418,19 +418,19 @@
       "job": "Managing Director"
     },
     {
-      "img": "img/team/10.jpg",
-      "name": "Mrs Saratu Abdullahi Mohammed",
-      "job": "Senior Management"
+"img": "img/team/10.jpg",
+    "name": "Mrs Saratu Abdullahi Mohammed",
+    "job": "Chief Financial Officer / Head of Internal Control"
     },
     {
-      "img": "img/team/08.jpg",
-      "name": "Bawa U. Ubana",
-      "job": "Senior Management"
-    },
-    {
-      "img": "img/team/09.jpg",
-      "name": "Rizoma Danladi",
-      "job": "Senior Management"
+"img": "img/team/08.jpg",
+    "name": "Bawa U. Ubana",
+    "job": "Branch Manager"
+  },
+  {
+    "img": "img/team/09.jpg",
+    "name": "Rizoma Danladi",
+    "job": "Branch Manager"
     }
   ],
   "Contact": {
